@@ -1,0 +1,20 @@
+@keyframes changeBackgroundColor 
+{
+    0% {
+        background-color: #ff9a9e; /* Розовый */
+    }
+    50% {
+        background-color: #fad0c4; /* Персиковый */
+    }
+    100% {
+        background-color: #a18cd1; /* Светло-фиолетовый */
+    }
+}
+
+body 
+{
+    animation-name: changeBackgroundColor; /* Имя анимации */
+    animation-duration: 10s; /* Длительность одного цикла */
+    animation-iteration-count: infinite; /* Бесконечное повторение */
+    animation-timing-function: ease-in-out; /* Плавность анимации */
+}
